@@ -1,11 +1,9 @@
 <script setup lang="ts">
-import type { InputHTMLAttributes } from 'vue';
+import type { InputTextProps } from './InputType.types';
 
-// eslint-disable-next-line @typescript-eslint/no-empty-object-type
-interface InputTextProps extends /* @vue-ignore */ InputHTMLAttributes {}
-const { type = 'text' } = defineProps<InputTextProps>();
+const inputProps = defineProps<InputTextProps>();
 </script>
 
 <template>
-  <input :type="type" />
+  <input type="text" v-bind="inputProps"/>
 </template>
