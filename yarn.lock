@@ -3614,6 +3614,11 @@ std-env@^3.9.0:
   resolved "https://registry.yarnpkg.com/std-env/-/std-env-3.9.0.tgz#1a6f7243b339dca4c9fd55e1c7504c77ef23e8f1"
   integrity sha512-UGvjygr6F6tpH7o2qyqR6QYpwraIjKSdtzyBdyytFOHmPZY917kwdwLG0RbOjWOnKmnm3PeHjaoLLMie7kPLQw==
 
+storybook-addon-vue-slots@^0.9.29:
+  version "0.9.29"
+  resolved "https://registry.yarnpkg.com/storybook-addon-vue-slots/-/storybook-addon-vue-slots-0.9.29.tgz#0f7af63d6fac7ccf45be4180642bd64dd97c42bf"
+  integrity sha512-7KdbUbYN8Lmblc9Rf06mYNQX10aYePNZBONpNMtFIS+VsZGxVXiaclkE95siou3/TPe/yRhv3hnE/VbFsnUlFw==
+
 storybook@^9.0.13:
   version "9.0.13"
   resolved "https://registry.yarnpkg.com/storybook/-/storybook-9.0.13.tgz#16c5e535fad4c632e399e27b4cded4527e641f95"
